@@ -1,0 +1,170 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado con logo transparente */
+header {
+    background-color: #1E90FF;
+    background-image: url('ft/logo.PNG'); /* Coloca el logo */
+    background-size: 200px; /* Tamaño del logo */
+    background-repeat: no-repeat;
+    background-position: center; /* Posiciona el logo en el centro */
+    background-blend-mode: multiply; /* Mezcla el logo con el color de fondo */
+    opacity: 0.8; /* Transparencia del fondo, ajusta según sea necesario */
+    padding: 100px 20px; /* Aumenta el espacio para que el logo no quede encima del texto */
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Navegación */
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #1E90FF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección principal */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.main-section h2 {
+    color: #1E90FF;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Sección de servicios */
+.services-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #1E90FF;
+}
+
+.services-section .service {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+.service img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Sección de contacto */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    display: inline-block;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #1E90FF;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #f0f8ff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
